@@ -6,12 +6,12 @@ import Projects from './Projects.js';
 
 const Content = () => {
   return (
-    <>
+    <div classname="content-container">
       <Profile />
       <Bio />
       <Skills />
       <Projects />
-    </>
+    </div>
   )
 }
 

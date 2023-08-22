@@ -2,7 +2,12 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className="project-container">
+      <div className="project">Projects</div>
+      <div classNames="projects">
+        <iframe className="cellular-automata" src="https://elitemoni.github.io/CellularAutomata/"></iframe>
+      </div>
+    </div>
   )
 }
 

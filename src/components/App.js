@@ -3,7 +3,7 @@ import TableOfContents from './TableOfContents.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Content />
     </div>
   );

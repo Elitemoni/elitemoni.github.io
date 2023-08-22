@@ -3,12 +3,12 @@ import profilePic from '../images/defaultAvatar.jpg';
 
 const Profile = () => {
   return (
-    <div className="profileContainer">
-      <div className="profilePicContainer">
-        <img className="profilePic" src={profilePic}/>
+    <div className="profile-container">
+      <div className="profile-pic-container">
+        <img className="profile-pic" src={profilePic}/>
       </div>
-      <div className="Title">Simeon Cekov</div>
-      <div className="Email">cekovsimeon1@gmail.com</div>
+      <div className="title">Simeon Cekov</div>
+      <div className="email">cekovsimeon1@gmail.com</div>
     </div>
   )
 }
