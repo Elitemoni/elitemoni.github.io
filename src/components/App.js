@@ -1,4 +1,5 @@
 import Content from './Content.js';
+import TableOfContents from './TOC.js';
 
 function App() {
   return (
