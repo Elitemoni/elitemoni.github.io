@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
+import degreeImage from '../images/AssociateDegree.jpg';
 
 const Education = () => {
   return (
     <div className="education-container">
       <div>Education:</div>
-      <div>Associate's Degree in Computer Science from Diablo Valley College</div>
+      <div className="degree-pic-container">
+        <img className="degree-pic" src={degreeImage} />
+      </div>
+      <div>That's not all! Well.. I am currently working on my bachelor's at the University of Phoenix!</div>
     </div>
   )
 }
