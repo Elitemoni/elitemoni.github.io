@@ -5,11 +5,11 @@ import Footer from './components/Footer'
 
 function App() {
 	return (
-		<>
+		<div className="bg-gray-500 flex flex-col justify-center h-screen w-256">
 			<Sidebar />
 			<Content />
 			<Footer />
-		</>
+		</div>
 	)
 }
 
