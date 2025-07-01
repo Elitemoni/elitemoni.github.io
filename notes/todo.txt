@@ -1,2 +1,0 @@
-use absolute file references instead of relative references
-ex: @/components/Blog instead of ./Blog
