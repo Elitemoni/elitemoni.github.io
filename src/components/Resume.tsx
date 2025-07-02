@@ -11,7 +11,7 @@ export default function Resume() {
                </div>
                <img
                   className="border-white w-128 h-96 object-cover object-[20%_center] rounded-lg border-4"
-                  src="public/degreeDVC.jpg"
+                  src="degreeDVC.jpg"
                   alt="Degree certificate"
                />
 
@@ -21,7 +21,7 @@ export default function Resume() {
                </div>
                <img
                   className="border-white w-128 h-96 object-cover object-[20%_center] rounded-lg border-4"
-                  src="public/degreeUOPX.png"
+                  src="degreeUOPX.png"
                   alt="Degree certificate"
                />
 

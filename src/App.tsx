@@ -1,15 +1,16 @@
 import './App.css'
-import Content from './components/Content'
-import Sidebar from './components/Sidebar'
-import Footer from './components/Footer'
+import Home from './components/Home'
+import Blog from './components/Blog'
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
 	return (
-		<div className="bg-gray-500 flex flex-col justify-center h-screen w-256">
-			<Sidebar />
-			<Content />
-			<Footer />
-		</div>
+		<Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
+    </Router>
 	)
 }
 
